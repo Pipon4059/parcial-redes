@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fffff1;
+  color: #333333;
+}
+
+a {
+  color: #00b7ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  color: #333333;
+  cursor: pointer;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #333333;
+}
+
+.section-2 {
+  margin-top: 10rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  margin: 4rem;
+}
+
+.content h2 {
+  font-size: 2rem;
+  color: #333333;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
+  gap: 20px;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.product {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.product h2 {
+  font-size: 1rem;
+  color: #333333;
+}
+
+/* Ajustes responsivos opcionales */
+@media (max-width: 768px) {
+  .product h2 {
+    font-size: 0.95rem;
+  }
+}
+
+.cantidad {
+  font-size: 0.9rem;
+  color: #666666;
+  font-size: bolder;
+  margin: 10px 0;
+}
+
+.precio {
+  font-size: 1rem;
+  color: #599934;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.diagrama-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.render {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.render-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.full-render {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  width: 70vw;
+}
+
+footer {
+  background-color: #fffbc0;
+  border: 2px solid #cdcf53;
+  padding: 1rem;
+  text-align: center;
+}
